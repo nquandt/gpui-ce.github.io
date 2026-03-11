@@ -14,7 +14,7 @@ smart_punctuation = true
 [markdown.highlighting]
 error_on_missing_language = false
 
-style = "inline"
+style = "class"
 theme = "github-dark"
 
 [extra]

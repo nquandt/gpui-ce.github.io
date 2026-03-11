@@ -687,73 +687,53 @@ pre {
   line-height: 1.5;
 }
 
-.keyword {
-  color: oklch(78% 0.14 300);
-}
-
-.function {
-  color: oklch(75% 0.12 240);
-}
-
-.type,
-.constructor {
-  color: oklch(91% 0.11 85);
-}
-
-.string {
-  color: oklch(86% 0.12 145);
-}
-
-.number,
-.constant {
-  color: oklch(80% 0.13 50);
-}
-
-.comment {
+/* Comments */
+.z-punctuation.z-definition.z-comment {
   color: oklch(50% 0.02 270);
   font-style: italic;
 }
 
-.operator {
-  color: oklch(86% 0.09 200);
+/* Keywords: use, fn, for, if, else, async, move, loop, break, as */
+.z-keyword {
+  color: oklch(78% 0.14 300);
 }
 
-.punctuation {
-  color: oklch(65% 0.04 265);
+/* Storage modifiers: struct, let, mod */
+.z-storage.z-type {
+  color: oklch(78% 0.14 300);
 }
 
-.property {
+/* Reference/borrow keywords: &mut, & */
+.z-keyword.z-storage {
+  color: oklch(78% 0.14 300);
+}
+
+/* Type names, function names, method calls */
+.z-entity.z-name {
+  color: oklch(91% 0.11 85);
+}
+
+/* Fields, parameters, local bindings */
+.z-variable.z-other {
   color: oklch(75% 0.12 240);
 }
 
-.variable {
+/* self, Self */
+.z-variable.z-language {
   color: oklch(87% 0.04 265);
 }
 
-.macro {
-  color: oklch(86% 0.09 200);
+/* true, false, numeric literals */
+.z-constant {
+  color: oklch(80% 0.13 50);
 }
 
-.attribute {
-  color: oklch(91% 0.11 85);
+/* String literals */
+.z-punctuation.z-definition.z-string.z-string {
+  color: oklch(86% 0.12 145);
 }
 
-.label {
-  color: oklch(73% 0.16 15);
-}
-
-.namespace {
-  color: oklch(91% 0.11 85);
-}
-
-.embedded {
-  color: oklch(87% 0.04 265);
-}
-
-.tag {
-  color: oklch(73% 0.16 15);
-}
-
-.special {
-  color: oklch(84% 0.10 345);
+/* Punctuation */
+.z-punctuation {
+  color: oklch(65% 0.04 265);
 }
