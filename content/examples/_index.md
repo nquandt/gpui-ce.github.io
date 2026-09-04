@@ -14,6 +14,7 @@ learn_examples = [
     { name = "layout", title = "Layout", description = "This example demonstrates different layout approaches in GPUI: flexbox, grid, common patterns." },
     { name = "styling", title = "Styling", description = "This example demonstrates different styling approaches in GPUI: interactive states, conditional styling, theming patterns." },
     { name = "text", title = "Text", description = "This example demonstrates text capabilities in GPUI: text styling, text alignment, text decoration, text overflow, styled text, and more." },
+    { name = "webview", title = "Webview", description = "This example demonstrates embedding a native webview in GPUI using the gpui_webview crate: a URL bar, navigation, and two-way URL sync." },
 ]
 bench_examples = [
     { name = "data_table", title = "Data Table", description = "" },
